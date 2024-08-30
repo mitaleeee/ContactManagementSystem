@@ -14,38 +14,32 @@ JavaFX: For creating the graphical user interface.
 Java Collections: Utilizes TreeMap and ObservableList for efficient data management.
 File Handling: Uses BufferedReader, FileReader, and FileWriter for reading and writing contacts to a CSV file.
 JavaFX Controls: Various controls like TableView, TextField, Button, etc., are used for user interaction.
-
-How to Use:
+How to Use
 Add a Contact
+
 Enter the name, phone number, and email in the respective fields.
 Click on the "Add" button to save the contact.
-
 Update a Contact
+
 Enter the name of the contact you want to update.
 Modify the details and click on the "Update" button.
-
 Delete a Contact
+
 Enter the name of the contact you want to delete.
 Click on the "Delete" button.
-
 Search for a Contact
+
 Enter a name or phone number in the search field.
 Click on the "Search" button to display matching contacts.
-
 Show All Contacts
-Click on the "Show All" button to display all saved contacts.
 
+Click on the "Show All" button to display all saved contacts.
 File Handling
 Save Contacts: Contacts are automatically saved to contact.csv when the application is closed.
 Load Contacts: Contacts are loaded from contact.csv when the application starts.
-
 Error Handling
 Displays error messages for the following:
 Missing or empty fields when adding or updating contacts.
 Duplicate contacts based on name, phone number, or email.
 Invalid phone number format (must be exactly 10 digits).
 Invalid email format.
-
-Contact
-For any questions or feedback, please reach out to mitalee18p@gmail.com.
-
